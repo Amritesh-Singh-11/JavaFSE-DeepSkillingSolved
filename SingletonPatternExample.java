@@ -34,3 +34,10 @@ public class SingletonPatternExample {
         System.out.println(logger1 == logger2);
     }
 }
+
+
+/*Output:
+Logger Instance Created
+LOG: Application Started
+LOG: User Logged In
+true*/
