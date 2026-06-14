@@ -71,3 +71,8 @@ public class FactoryMethodPatternExample {
         excelFactory.openDocument();
     }
 }
+
+/*Output:
+Opening Word Document
+Opening PDF Document
+Opening Excel Document*/
