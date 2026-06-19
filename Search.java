@@ -1,19 +1,20 @@
-//What is Big O Notation?
-//Big O notation describes how the running time of an algorithm grows as the input size (n) increases.
-//It helps us:
-//Compare algorithms.
-//Predict performance for large datasets.
-//Choose the most efficient solution.
-//Search Operation Cases
-//Best Case
-//Element found immediately.
-//Average Case
-//Element found somewhere in the middle.
-//Worst Case
-//Element is:
-//Last element, or
-//Not present.
+/*What is Big O Notation?
+Big O notation describes how the running time of an algorithm grows as the input size (n) increases.
+It helps us:
+1. Compare algorithms.
+2. Predict performance for large datasets.
+3. Choose the most efficient solution.
+Search Operation Cases
+1. Best Case
+Element found immediately.
+2. Average Case
+Element found somewhere in the middle.
+3. Worst Case
+Element is:
+(i) Last element, or
+(ii) Not present.*/
 
+//Product Class
 class Product {
 
     int productId;
@@ -27,6 +28,7 @@ class Product {
     }
 }
 
+//Linear Search
 public class Search {
 
     public static Product linearSearch(Product[] products, int id) {
@@ -39,6 +41,7 @@ public class Search {
         return null;
     }
 
+//Binary Search
     public static Product binarySearch(Product[] products, int id) {
 
         int low = 0;
@@ -84,3 +87,19 @@ public class Search {
 }
 
 //Output:
+//Found using Linear Search: Watch
+//Found using Binary Search: Watch
+
+/*Time Complexity Analysis
+Feature	         Linear Search	Binary Search
+Best Case	            O(1)	     O(1)
+Average Case            O(n)	     O(log n)
+Worst Case	            O(n)	     O(log n)
+Requires Sorting	    No	         Yes
+
+Better for an E-commerce Platform?
+Binary Search is more suitable because:
+1. Product catalogs can contain thousands or millions of products.
+2. Search operations happen very frequently.
+3. Binary Search provides O(log n) time complexity.
+4. Much faster than Linear Search for large datasets.*/
