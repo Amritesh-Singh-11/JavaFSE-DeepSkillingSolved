@@ -12,3 +12,12 @@ BEGIN
     COMMIT;
 END;
 /
+EXEC UpdateEmployeeBonus('IT',10);
+SELECT * FROM Employees;
+/* Output
+EmployeeID EmployeeName   Department Salary
+---------- -------------- ---------- -----------
+1          Raj            IT         55000
+2          Priya          IT         66000
+3          Amit           HR         45000
+*/
