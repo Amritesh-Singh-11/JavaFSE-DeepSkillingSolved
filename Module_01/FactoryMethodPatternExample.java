@@ -1,3 +1,4 @@
+
 //Implementing the Factory Method Pattern
 //Scenario: You are developing a document management system that needs to create different types 
 // of documents (e.g., Word, PDF, Excel). Use the Factory Method Pattern to achieve this.
