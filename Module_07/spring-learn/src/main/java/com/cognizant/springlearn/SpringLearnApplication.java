@@ -17,7 +17,7 @@ public class SpringLearnApplication {
 
 		SpringApplication.run(SpringLearnApplication.class, args);
 
-		displayCountry();
+		//displayCountry();
 	}
 
 	public static void displayCountry() {
@@ -40,4 +40,7 @@ Inside Country Constructor.
 Inside setCode()
 Inside setName()
 Country : Country{code='IN', name='India'}
+
+Tomcat started on port 8083 (http) with context path '/'
+Started SpringLearnApplication
  */
