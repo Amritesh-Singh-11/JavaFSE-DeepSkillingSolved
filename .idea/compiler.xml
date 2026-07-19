@@ -8,7 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Module_04" />
         <module name="LibraryManagement" />
+        <module name="orm-learn" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Module_06" target="24" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="orm-learn" options="-parameters" />
+    </option>
   </component>
 </project>
