@@ -2,4 +2,5 @@
 *.log
 
 # Ignore the entire log folder and its contents
-log/
+log/"*.orig" 
+"*.bak" 
